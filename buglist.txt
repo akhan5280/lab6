@@ -1,0 +1,24 @@
+/**
+*	@file buglist.txt
+*	@author Adam Khan
+*	@date 10/31/18
+*	@brief list of known bugs in LinkedListOfInts class
+*/
+
+Bug 1: isEmpty always returns true.
+Bug 2: addFront accepts multiple types.
+Bug 3: addBack adds to the front.
+Bug 4: addBack accepts multiple types.
+Bug 5: removeBack does not remove value, so it always returns false and does not decrement size.
+Bug 6: removeFront does not remove value, so it always returns false and does not decrement size.
+Bug 7: search accepts multiple types.
+
+/* Fully tested methods
+  -addFront --broken
+  -isEmpty --broken
+  -size
+  -addBack --broken
+  -removeBack --broken
+  -removeFront --broken
+  -search --broken
+*/
